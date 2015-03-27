@@ -15,6 +15,8 @@ public class StringManipulation {
         String nameSalary = fullName + salary;
         System.out.println(nameSalary);
 
+
+
     }
 }
 
