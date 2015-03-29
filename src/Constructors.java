@@ -26,7 +26,7 @@ class Machine {
     }
 
     public Machine(String message) {
-        System.out.println("Parameterised Constructor and here is message :" + message);
+        System.out.println("Parametrised Constructor and here is message :" + message);
     }
 
     public Machine(String company, int parts) {
