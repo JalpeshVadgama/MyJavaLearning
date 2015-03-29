@@ -13,6 +13,13 @@ public class SetterAndThis {
         System.out.println(frog.getName());
         System.out.println(frog.getAge());
 
+        Frog anotherFrog = new Frog();
+        anotherFrog.setInfo("Vishal Vadgama", 32);
+        System.out.println(anotherFrog.getName());
+        System.out.println(anotherFrog.getAge());
+
+
+
     }
 }
 
@@ -36,4 +43,11 @@ class Frog {
     public void setAge(int age) {
         this.age = age;
     }
+
+    public void setInfo(String name, int age) {
+        this.name = name;
+        this.age = age;
+    }
+
+
 }
