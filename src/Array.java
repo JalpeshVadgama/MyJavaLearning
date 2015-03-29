@@ -14,8 +14,8 @@ public class Array {
 
         System.out.println("Printing array value");
 
-        for (int i = 1; i < values.length+1; i++) {
-            System.out.println(i);
+        for (int i = 0; i < values.length; i++) {
+            System.out.println(values[i]);
         }
 
     }
