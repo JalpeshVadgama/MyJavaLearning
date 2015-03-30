@@ -10,11 +10,13 @@ public class StaticAndFinal {
 
         Thing.showName();
         Thing.showDescirption();
+        Thing.showValues();
     }
 
 }
 
 class Thing {
+    public final static int value = 10;
     public static String name;
     public static String description;
 
@@ -24,5 +26,9 @@ class Thing {
 
     public static void showDescirption() {
         System.out.println(description);
+    }
+
+    public static void showValues() {
+        System.out.println(value);
     }
 }
