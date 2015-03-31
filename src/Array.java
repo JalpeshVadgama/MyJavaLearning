@@ -17,6 +17,5 @@ public class Array {
         for (int i = 0; i < values.length; i++) {
             System.out.println(values[i]);
         }
-
     }
 }
