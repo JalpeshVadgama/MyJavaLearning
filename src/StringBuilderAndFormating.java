@@ -13,8 +13,15 @@ public class StringBuilderAndFormating {
 
         //StringBuffer multiple thread for string builder
 
-        //String Formating
-        System.out.printf("Test %10d", 5);
+        //Integer Formating
+        System.out.printf("Test %10d\n", 5);
+
+        //String formatting
+        System.out.printf("Hello World %s\n", "Jalpesh Vadgama");
+
+        //Floating point formatting
+        System.out.printf("Floatig point %.2f\n", 5.6);
+
 
     }
 }
