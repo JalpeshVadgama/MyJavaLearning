@@ -10,5 +10,11 @@ public class StringBuilderAndFormating {
         stringBuilder.append(" Jalpesh Vadgama");
 
         System.out.println(stringBuilder.toString());
+
+        //StringBuffer multiple thread for string builder
+
+        //String Formating
+        System.out.printf("Test %10d", 5);
+
     }
 }
